@@ -19,6 +19,18 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel-loader',
       exclude: /node_modules/
+    }, {
+      test: /\.css$/,
+      use: [{
+        loader: 'style-loader'
+      }, {
+        loader: 'css-loader',
+        options: {
+          modules: true,
+          localIdentName: '[name]-[local]-[hash:base64:6]',
+          camelCase: true
+        }
+      }]
     }]
   },
   plugins: [
