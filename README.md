@@ -7,7 +7,7 @@ Aletta is a progressive blogging application created with React. The whole proje
 * [Getting setup with Webpack](https://www.youtube.com/watch?v=4qpXnIAZ9Dk)
 * [CSS Modules](https://www.youtube.com/watch?v=UAVJ6feR2LU)
 * [Taking off with React](https://www.youtube.com/watch?v=4th2kxtLb-c)
-* [Testing with Jest](https://www.youtube.com/watch?v=XQqgf97EbUA) - Streaming 26 January 2017 at 20:30 GMT
+* [Testing with Jest](https://www.youtube.com/watch?v=XQqgf97EbUA) - Streaming 27 January 2017 at 20:30 GMT | 15:30 EST | 12:30 PST
 * Creating a production build - Steaming early February
 
 ### Roadmap
