@@ -1,5 +1,8 @@
 # Aletta
 
+[![Build Status](https://travis-ci.org/roebuk/aletta.svg?branch=master)](https://travis-ci.org/roebuk/aletta)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Aletta is a progressive blogging application created with React. The whole project is being built whilst being live streamed on [YouTube](https://www.youtube.com/playlist?list=PLYHcCSWbw4G6s7NVi2RK0TKd69PdB0sWe) Over the course of the series I'll be building Aletta from scratch, you'll see everything from configuring webpack, implementing the components, styling the application, deploying to production, enabling offline support and so much more. I hope you'll join in for the ride.
 
 ### Epsidode Guide
@@ -9,7 +12,6 @@ Aletta is a progressive blogging application created with React. The whole proje
 * [Taking off with React](https://www.youtube.com/watch?v=4th2kxtLb-c)
 * [Testing with Jest](https://www.youtube.com/watch?v=XQqgf97EbUA) - Streaming 27 January 2017 at 20:30 GMT | 15:30 EST | 12:30 PST
 * Creating a production build - Steaming early February
-
 
 ### Roadmap
 
