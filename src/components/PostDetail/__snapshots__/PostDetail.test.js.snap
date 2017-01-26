@@ -1,0 +1,5 @@
+exports[`test component 1`] = `
+<div>
+  <Post />
+</div>
+`;
