@@ -1,4 +1,4 @@
-exports[`test sample 1`] = `
+exports[`test App component should render as expected 1`] = `
 <BrowserRouter>
   <div>
     <Header />

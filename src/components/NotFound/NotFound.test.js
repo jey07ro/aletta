@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import NotFound from './NotFound'
 
-test('something', () => {
+test('NotFound component should render as expected', () => {
   const component = shallow(<NotFound />)
   const tree = toJson(component)
   expect(tree).toMatchSnapshot()

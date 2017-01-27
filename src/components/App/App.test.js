@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import App from './App'
 
-test('sample', () => {
+test('App component should render as expected', () => {
   const component = shallow(<App />)
   const tree = toJson(component)
 
