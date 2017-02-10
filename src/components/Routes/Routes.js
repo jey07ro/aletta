@@ -1,5 +1,5 @@
 import React from 'react'
-import { Match, Miss } from 'react-router'
+import { Route, Switch } from 'react-router'
 
 import Home from '../Home/Home'
 import About from '../About/About'
@@ -9,15 +9,15 @@ import NotFound from '../NotFound/NotFound'
 import posts from '../../../blog-posts.json'
 
 const Routes = () => (
-  <div>
-    <Match exactly pattern='/' component={() => <Home posts={posts.posts} />} />
-    <Match pattern='/about' component={About} />
-    <Match pattern='/post/:slug' component={props => {
-      const post = posts.posts.filter(post => props.params.slug === post.slug)
+  <Switch>
+    <Route exact path='/' component={() => <Home posts={posts.posts} />} />
+    <Route path='/about' component={About} />
+    <Route path='/post/:slug' component={props => {
+      const post = posts.posts.filter(post => props.match.params.slug === post.slug)
       return <PostDetail post={post[0]} />
     }} />
-    <Miss component={NotFound} />
-  </div>
+    <Route component={NotFound} />
+  </Switch>
 )
 
 export default Routes
