@@ -2,7 +2,7 @@ const { resolve } = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const DashboardPlugin = require('webpack-dashboard/plugin')
 
-const srcDir = resolve(__dirname, 'src')
+const srcDir = resolve(__dirname, '../src')
 
 module.exports = {
   entry: `${srcDir}/index.js`,
@@ -37,10 +37,16 @@ module.exports = {
       }]
     }]
   },
+  resolve: {
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: `${srcDir}/index.html`
     }),
-    new DashboardPlugin()
+    new DashboardPlugin(),
   ]
 }
