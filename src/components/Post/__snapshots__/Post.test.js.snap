@@ -3,13 +3,8 @@ exports[`test Post component should render the title as a link when the titleLin
   <h2
     className="title">
     <Link
-      activeClassName=""
-      activeOnlyWhenExact={false}
-      activeStyle={Object {}}
       className="link"
-      isActive={[Function]}
       replace={false}
-      style={Object {}}
       to="/post/undefined" />
   </h2>
   <p

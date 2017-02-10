@@ -8,7 +8,7 @@ const Post = (props) => (
     <h2 className={styles.title}>
       {props.titleLink
       ? <Link className={styles.link} to={`/post/${props.slug}`}>{props.title}</Link>
-      : props.title} Hello
+      : props.title}
     </h2>
     <p className={styles.content}>{props.excerpt}</p>
   </div>
