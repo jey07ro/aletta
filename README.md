@@ -13,7 +13,7 @@ Aletta is a progressive blogging application created with React. The whole proje
 * [Testing with Jest](https://www.youtube.com/watch?v=bMmntkVM4wQ)
 * [Bundling for production](https://www.youtube.com/watch?v=lCnqxorClps)
 * [Service Workers & Preact](https://www.youtube.com/watch?v=JUCa2n4LNuI)
-* Next live stream - 16th February at 20:30 GMT | 15:30 EST | 12:30 PST
+* Next live stream - 24th February at 20:30 GMT | 15:30 EST | 12:30 PST
 
 ### Roadmap
 
