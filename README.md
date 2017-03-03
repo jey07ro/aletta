@@ -5,6 +5,8 @@
 
 Aletta is a progressive blogging application created with React. The whole project is being built whilst being live streamed on [YouTube](https://www.youtube.com/playlist?list=PLYHcCSWbw4G6s7NVi2RK0TKd69PdB0sWe) Over the course of the series I'll be building Aletta from scratch, you'll see everything from configuring webpack, implementing the components, styling the application, deploying to production, enabling offline support and so much more. I hope you'll join in for the ride.
 
+Aletta is hosted at [aletta.roeb.uk](https://aletta.roeb.uk).
+
 ### Episode Guide
 
 * [Getting setup with Webpack](https://www.youtube.com/watch?v=4qpXnIAZ9Dk)
@@ -13,7 +15,7 @@ Aletta is a progressive blogging application created with React. The whole proje
 * [Testing with Jest](https://www.youtube.com/watch?v=bMmntkVM4wQ)
 * [Bundling for production](https://www.youtube.com/watch?v=lCnqxorClps)
 * [Service Workers & Preact](https://www.youtube.com/watch?v=JUCa2n4LNuI)
-* Next live stream - 24th February at 20:30 GMT | 15:30 EST | 12:30 PST
+* [Code splitting with Webpack 2 & How to make your web app feel native](https://www.youtube.com/watch?v=rBTj1SOJB-A) - 3rd March at 20:30 GMT | 15:30 EST | 12:30 PST
 
 ### Roadmap
 
