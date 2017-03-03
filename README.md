@@ -15,7 +15,7 @@ Aletta is hosted at [aletta.roeb.uk](https://aletta.roeb.uk).
 * [Testing with Jest](https://www.youtube.com/watch?v=bMmntkVM4wQ)
 * [Bundling for production](https://www.youtube.com/watch?v=lCnqxorClps)
 * [Service Workers & Preact](https://www.youtube.com/watch?v=JUCa2n4LNuI)
-* [Code splitting with Webpack 2 & How to make your web app feel native](https://www.youtube.com/watch?v=rBTj1SOJB-A) - 3rd March at 20:30 GMT | 15:30 EST | 12:30 PST
+* [Code splitting with Webpack 2 & How to make your web app feel native](https://www.youtube.com/watch?v=rBTj1SOJB-A)
 
 ### Roadmap
 
